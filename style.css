@@ -9,10 +9,6 @@
   bottom: 0px;
 }
 
-.container {
-  height: 600px;
-}
-
 .auswahl-box {
   padding-left: 30px;
   padding-right: 30px;
@@ -21,6 +17,36 @@
 tr {
   height: 45px;
 }
+
+/* mockup Form*/
+#sucheform {
+ width: 140px;
+}
+
+.paddingleft {
+  padding-left: 60px !important;
+}
+.nopadding {
+  padding: 0px;
+}
+.filtermenuebar {
+  margin-bottom: -5px;
+}
+.filtermenue {
+  display: inline-block !important;
+  margin-top: 10px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+#table-header {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/* end mockup Form*/
 
 /* mockup Hilfe*/
 #accordion {
