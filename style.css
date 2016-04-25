@@ -128,6 +128,22 @@ box-shadow: none;
 }
 /* end filtertable in mockup_searchfilter*/
 
+/* mockup howto accordion*/
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: left;
+    color: grey;
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";
+}
+/* howto accordion end*/
+
 /* end mockup */
 
 
