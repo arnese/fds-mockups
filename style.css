@@ -1,0 +1,703 @@
+
+/* mockup */
+#header{
+  width: 100%;
+}
+
+#footer{
+  width: 100%;
+  bottom: 0px;
+}
+
+.auswahl-box {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+tr {
+  height: 45px;
+}
+
+/* mockup Form*/
+#sucheform {
+ width: 140px;
+}
+
+.paddingleft {
+  padding-left: 60px !important;
+}
+.nopadding {
+  padding: 0px;
+}
+.filtermenuebar {
+  margin-bottom: -5px;
+}
+.filtermenue {
+  display: inline-block !important;
+  margin-top: 10px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+#table-header {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+/* end mockup Form*/
+
+/* mockup Hilfe*/
+#accordion {
+  margin-top: 20px;
+}
+/* end mockup Hilfe*/
+
+/* mockup seitenleiste */
+.panel-default {
+    border: none;
+}
+
+tr:nth-of-type(even) {
+    background: #EEEEEE;
+}
+tr:nth-of-type(odd) {
+    background: #FFFFFF;
+}
+
+#filternach {
+  top: 12px;
+  position: absolute;
+  font-size: 16px;
+}
+
+#sidebar {
+  background-color: #EEEEEE;
+  border-radius: 6px;
+  top: 42px;
+  position: absolute;
+}
+
+.sidefilter {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.lastentry {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  width: 150px;
+
+}
+
+
+
+
+/* end mockup-seitenleiste*/
+
+
+/* filtertable in mockup_searchfilter*/
+.filterable {
+    margin-top: 15px;
+}
+.filterable .panel-heading .pull-right {
+    margin-top: -20px;
+}
+.filterable .filters input[disabled] {
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+    box-shadow: none;
+    padding: 0;
+    height: auto;
+}
+
+#checkbox {
+box-shadow: none;
+
+}
+.filterable .filters input[disabled]::-webkit-input-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]::-moz-placeholder {
+    color: #333;
+}
+.filterable .filters input[disabled]:-ms-input-placeholder {
+    color: #333;
+}
+/* end filtertable in mockup_searchfilter*/
+
+/* mockup howto accordion*/
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: left;
+    color: grey;
+    font-size: 0.9em;
+    margin-right: 10px;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";
+}
+/* howto accordion end*/
+
+/* end mockup */
+
+
+
+
+
+@font-face {
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Kreon Regular'), local('Kreon-Regular'), url('../fonts/Kreon-Regular.ttf') format('truetype'), url('../fonts/Kreon-Regular.woff') format('woff');
+}
+
+h1, h2, h3, h4 {
+        font-family: 'Kreon';
+        margin-bottom: 22px;
+}
+
+.animation a:hover {
+  text-decoration: none;
+}
+
+.fa{
+  color: #777;
+}
+
+.spendenbutton {
+  height: 50px;
+  margin-left: 10px;
+  z-index: 10px;
+}
+
+#spendenbutton-img {
+  height:66px;
+}
+
+#request-slogan {
+  padding-top: 8px;
+}
+
+#correspondence div:nth-child(odd) {
+border-radius: 6px;}
+
+.nav-compact {
+    padding-top: 5px;
+}
+
+.nav-header {
+  margin-bottom: 5px;
+}
+
+.badge{
+  margin-bottom: 5px;
+}
+
+.stepbox{
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*.glue-to-bottom{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}*/
+
+/* Wau Holland Logo Size (in Impressum) */
+.wau {
+    width: 18em;
+}
+
+
+.navbar-fds {
+    border: 0 !important;
+}
+
+.noticeable-break {
+  border: 2px solid #ccc;
+}
+
+.navbar-fds .navbar-brand {
+  font-size: 2.1em;
+  color: #06C;
+  font-family: 'Kreon', arial, serif;
+  background-image: url('../img/logo.png');
+    background-size: 34px auto;
+  background-repeat: no-repeat;
+  padding: 18px 15px 12px 60px;
+  background-position: 15px 11px;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-fds .navbar-brand {
+    font-size: 1.6em;
+  }
+}
+
+.donation-banner {
+  z-index: 1001;
+  width: 100%;
+  color: #333;
+  background-color: #5cb85c;
+  padding: 10px 0 30px;
+  overflow:hidden;
+}
+
+.donation-banner a {
+  color: #fff;
+}
+
+.donation-banner a.btn {
+  color: inherit;
+}
+
+.donation-banner small {
+  font-size: 75%;
+}
+
+.donation-banner .action-links {
+  color: #fff;
+}
+
+.donation-top {
+  padding-top: 0;
+}
+
+.donation-banner h3 {
+  font-size: 20px;
+}
+
+.donation-banner .btn-success {
+  margin-top: 7px;
+}
+
+#close-donation {
+  position: absolute;
+  right: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .donation-banner h3 {
+    font-size: 24px;
+  }
+}
+
+.donation-banner {
+  position: relative;
+}
+
+/* Show and affix the side nav when space allows it */
+@media screen and (min-width: 992px) {
+  .donation-top {
+    padding-top: 165px;
+  }
+  .donation-banner {
+    /* position: fixed; */
+  }
+  .donation-image {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+.donatotron {
+  background-color: #fff;
+}
+
+.donation-nav.affix {
+    position: static;
+}
+
+/* Show and affix the side nav when space allows it */
+@media screen and (min-width: 992px) {
+  /* Widen the fixed sidebar */
+  .donation-nav.affix,
+  .donation-nav.affix-bottom {
+    width: 263px;
+  }
+  .donation-nav.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+    top: 10px;
+    right: 83px;
+  }
+  .donation-nav.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* Widen the fixed sidebar again */
+  .donation-nav.affix-bottom,
+  .donation-nav.affix {
+    width: 263px;
+  }
+}
+
+.small-icon.topic-wirtschaft {
+    background-image: url('../img/topics/wirtschaft_small.png')
+}
+.small-icon.topic-verteidigung {
+    background-image: url('../img/topics/verteidigung_small.png')
+}
+.small-icon.topic-kultur-und-medien {
+    background-image: url('../img/topics/kultur-und-medien_small.png')
+}
+.small-icon.topic-gesundheit {
+    background-image: url('../img/topics/gesundheit_small.png')
+}
+.small-icon.topic-bildung-und-forschung {
+    background-image: url('../img/topics/bildung-und-forschung_small.png')
+}
+.small-icon.topic-andere {
+    background-image: url('../img/topics/andere_small.png')
+}
+.small-icon.topic-arbeit-und-soziales {
+    background-image: url('../img/topics/arbeit-und-soziales_small.png')
+}
+.small-icon.topic-inneres {
+    background-image: url('../img/topics/inneres_small.png')
+}
+.small-icon.topic-justiz {
+    background-image: url('../img/topics/justiz_small.png')
+}
+.small-icon.topic-umwelt {
+    background-image: url('../img/topics/umwelt_small.png')
+}
+.small-icon.topic-auswartiges {
+    background-image: url('../img/topics/auswartiges_small.png')
+}
+.small-icon.topic-verkehr {
+    background-image: url('../img/topics/verkehr_small.png')
+}
+.small-icon.topic-bau {
+    background-image: url('../img/topics/bau_small.png')
+}
+.small-icon.topic-finanzen {
+    background-image: url('../img/topics/finanzen_small.png')
+}
+.small-icon.topic-familien-senioren-frauen-und-jugend {
+    background-image: url('../img/topics/familien-senioren-frauen-und-jugend_small.png')
+}
+.small-icon.topic-entwicklung {
+    background-image: url('../img/topics/entwicklung_small.png')
+}
+.small-icon.topic-landwirtschaft {
+    background-image: url('../img/topics/landwirtschaft_small.png')
+}
+.small-icon.topic-verbraucherschutz {
+    background-image: url('../img/topics/verbraucherschutz_small.png')
+}
+
+.small-icon.jurisdiction-bund {
+    background-image: url('../img/jurisdictions/bund_small.png')
+}
+.small-icon.jurisdiction-berlin {
+    background-image: url('../img/jurisdictions/berlin_small.png')
+}
+.small-icon.jurisdiction-brandenburg {
+    background-image: url('../img/jurisdictions/brandenburg_small.png')
+}
+.small-icon.jurisdiction-nrw {
+    background-image: url('../img/jurisdictions/nrw_small.png')
+}
+.small-icon.jurisdiction-hamburg {
+    background-image: url('../img/jurisdictions/hamburg_small.png')
+}
+.small-icon.jurisdiction-rheinland-pfalz {
+    background-image: url('../img/jurisdictions/rheinland-pfalz_small.png')
+}
+.small-icon.jurisdiction-mecklenburg-vorpommern {
+    background-image: url('../img/jurisdictions/mecklenburg-vorpommern_small.png')
+}
+.small-icon.jurisdiction-saarland {
+    background-image: url('../img/jurisdictions/saarland_small.png')
+}
+.small-icon.jurisdiction-bremen {
+  background-image: url('../img/jurisdictions/bremen_small.png')
+}
+.small-icon.jurisdiction-thueringen {
+  background-image: url('../img/jurisdictions/thueringen_small.png')
+}
+.small-icon.jurisdiction-schleswig-holstein {
+  background-image: url('../img/jurisdictions/schleswig-holstein_small.png')
+}
+.small-icon.jurisdiction-sachsen-anhalt {
+  background-image: url('../img/jurisdictions/sachsen-anhalt_small.png')
+}
+.small-icon.jurisdiction-baden-wurttemberg {
+  background-image: url('../img/jurisdictions/baden-wurttemberg_small.png')
+}
+.small-icon.jurisdiction-bayern {
+  background-image: url('../img/jurisdictions/bayern_small.png')
+}
+.small-icon.jurisdiction-hessen {
+  background-image: url('../img/jurisdictions/hessen_small.png')
+}
+.small-icon.jurisdiction-niedersachsen {
+  background-image: url('../img/jurisdictions/niedersachsen_small.png')
+}
+.small-icon.jurisdiction-sachsen {
+  background-image: url('../img/jurisdictions/sachsen_small.png')
+}
+
+.frontpage-teaser h3 {
+  margin-top: -6px;
+}
+
+.col-video-7 {
+  width: 100%;
+  height: 430px;
+}
+
+@media screen and (min-width: 768px) {
+  .col-video-7 {
+    width: 669px;
+    height: 376px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #spendenbutton-img {
+    margin-top: -10px;
+
+
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .col-video-7 {
+    width: 497px;
+    height: 279px;
+  }
+
+    #wasist {
+      margin-top: 0px;
+    }
+
+    .foi-request {
+      height: 280px;
+    }
+
+    .sendrequest {
+      bottom: 0px;
+    }
+
+    .search-form {
+      position: absolute;
+      bottom: 0px;
+    }
+
+
+  }
+
+@media screen and (max-width: 1200px) {
+  .heroine-unit p {
+    font-size: 16px;
+    line-height: 25px;
+
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .col-video-7 {
+        width: 605px;
+        height: 340px;
+    }
+
+    .foi-request {
+      height: 340px;
+      padding-top: 31px;
+
+    }
+
+    .search-form {
+      position: absolute;
+      bottom: 31px;
+    }
+
+
+
+}
+
+.frontpage-teaser h3 {
+    margin-top: -6px;
+}
+
+.btn-success {
+    background-color: #428bca;
+    border-color: #3A79B0;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #d9edf7;
+    border-color: #DBEFFF;
+    color: #333;
+}
+
+
+/* style for animation on index page */
+
+.threesteps {
+  position: relative;
+  background-color: #f8f8f8;
+  border-radius: 6px;
+  padding: 25px 100px 10px 100px;
+}
+
+
+.box {
+  position: relative;
+  width: 200px;
+  height: 120px;
+  font-size: 1em;
+  background-color: #428bca;
+  margin-right: 15px;
+  margin-bottom: 35px;
+  margin-top: 30px;
+  border-radius: 6px;
+  text-align: center;
+  color: #f8f8f8;
+  cursor: pointer;
+}
+
+.box:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 0;
+  border-color: #428bca transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.box.is-active {
+  color: #333;
+  background-color: #d9edf7;
+}
+.box.is-active:after {
+  border-color: #d9edf7 transparent;
+}
+
+.line {
+  position: absolute;
+  width: 211px;
+  height: 6px;
+  background-color: #777;
+}
+
+.line.is-active {
+  background-color: #ffb74d;
+}
+
+#line1 {
+  top: 203px;
+  left: 142px;
+}
+
+#line2 {
+  top: 203px;
+  left: 140px;
+}
+
+@media screen and (max-width: 992px) {
+  .line {
+    display: none;
+    width: 6px;
+    height: 215px;
+  }
+
+  .line.is-active {
+    background-color: #d9edf7;
+  }
+
+  #line1 {
+    top: 168px;
+    left: 257px;
+  }
+
+  #line2 {
+    top: 180px;
+    left: 257px;
+  }
+
+  #box1 {
+    margin-top: 30px;
+  }
+
+  .video {
+    margin-top: 30px;
+  }
+
+
+}
+
+@media screen and (max-width: 455px) {
+  .threesteps {
+  padding: 25px 0px 10px 0px;
+
+  }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+  .line {
+    width: 320px;
+  }
+
+
+
+}
+
+
+
+.box p {
+  padding: 15px;
+}
+
+
+.circle {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #777;
+  color: #f8f8f8;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+}
+
+.circle.is-active {
+  background-color: #ffb74d;
+}
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.ifg-button {
+  margin: 30px 10px 30px 10px;
+
+}
+
+/* END: style for animation on index page */

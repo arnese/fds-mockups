@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Account</title>
+  <meta name="description" content="FDSAccount">
+  <meta name="author" content="katze">
+
+  <link href='https://fonts.googleapis.com/css?family=Kreon' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.4/css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="style.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.9.4/js/bootstrap-select.min.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <img id="header" src="img/header.png" alt="header">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+        <nav class="navbar navbar-default">
+  <div class="container-fluid nopadding">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse">
+      <form role="search" accept-charset="UTF-8" method="get">
+      <ul class="nav navbar-nav">
+        <li class="filtermenue form-group col-md-2">
+          <select class="selectpicker" data-width="100%" id="land" multiple="multiple" title="Land">
+            <option value="BT">Bund</option>
+            <option value="BB">Brandenburg</option>
+            <option value="BE">Berlin</option>
+            <option value="BW">Baden-Württemberg</option>
+            <option value="BY">Bayern</option>
+            <option value="HB">Bremen</option>
+            <option value="HE">Hessen</option>
+            <option value="HH">Hamburg</option>
+            <option value="MV">Mecklenburg-Vorpommern</option>
+            <option value="NI">Niedersachsen</option>
+            <option value="NW">Nordrhein-Westfalen (27)</option>
+            <option value="RP">Rheinland-Pfalz</option>
+            <option value="SH">Schleswig-Holstein</option>
+            <option value="SL">Saarland</option>
+            <option value="SN">Sachsen</option>
+            <option value="ST">Sachsen-Anhalt</option>
+            <option value="TH">Thüringen</option></select>
+          </li>
+          <li class="filtermenue form-group col-md-2">
+            <select class="selectpicker" data-width="100%" id="status" multiple="multiple" title="Status">
+              <option value="minor">erfolgreich</option>
+              <option value="major">teilweise erfolgreich</option>
+              <option value="written">blabla</option>
+            </select>
+          </li>
+          <li class="filtermenue form-group col-md-2">
+            <select class="selectpicker" data-width="100%" id="kategorie" multiple="multiple" title="Kategorie">
+              <option value="arbeit">Arbeit</option>
+              <option value="bvb-fw">Auswärtiges</option>
+              <option value="cdu">Bau</option>
+              <option value="cdu-csu">Bildung und Forschung</option>
+              <option value="csu">CSU </option>
+            </select>
+          </li>
+
+            <li class="filtermenue form-group col-md-2">
+              <select class="selectpicker" id="vermittlung" data-width="100%" multiple="multiple" title="Anfragen mit">
+                <option value="bla">Vermittlung</option>
+                <option value="bvb-fw">Widerspruch</option>
+                <option value="cdu">Klage</option>
+              </select>
+            </li>
+
+            <li class="filtermenue form-group col-md-1">
+              <button type="submit" class="btn btn-default">Filter</button>
+            </li>
+              <li class="filtermenue input-group col-md-3">
+                <input id="sucheform" class="form-control" type="text"  placeholder="Suche nach Themen">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Los!</button>
+                </span>
+              </li><!-- /input-group -->
+          </ul>
+        </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+              <img id="footer" src="img/footer.png" alt="footer">
+
+            </div>
+          </div>
+        </div>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+        </script>
+
+      </body>
+      </html>
