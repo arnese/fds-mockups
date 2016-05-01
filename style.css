@@ -138,6 +138,9 @@ box-shadow: none;
     font-size: 0.9em;
     margin-right: 10px;
 }
+.table {
+		font-size: 0.9em;
+}
 .panel-heading .accordion-toggle.collapsed:after {
     /* symbol for "collapsed" panels */
     content: "\e080";
